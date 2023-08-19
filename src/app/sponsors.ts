@@ -18,12 +18,6 @@ export const SPONSORS = [
     title: 'https://www.mastelingtweewielers.nl/',
   },
   {
-    url: 'https://www.facebook.com/AmbachtsbakkerBakker/',
-    image:
-      'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1454429265-200x200.jpg.webp',
-    title: 'https://www.facebook.com/AmbachtsbakkerBakker/',
-  },
-  {
     url: 'https://www.game11.nl/',
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1521294735-200x200.png.webp',
@@ -102,12 +96,6 @@ export const SPONSORS = [
     title: 'https://www.homemadeby.nl/louter-schoorl',
   },
   {
-    url: 'https://www.louterinstallatie.nl/',
-    image:
-      'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1543765620-200x200.png.webp',
-    title: 'https://www.louterinstallatie.nl/',
-  },
-  {
     url: 'https://www.stamenstam.nl/',
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1457356330-200x200.jpg.webp',
@@ -160,10 +148,5 @@ export const SPONSORS = [
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1457349497-200x200.jpg.webp',
     title: 'https://www.hofvanschoorl.nl/',
-  },
-  {
-    image:
-      'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1538313345-200x200.jpg.webp',
-    title: 'Notariskantoor Wijnbeld',
   },
 ];
