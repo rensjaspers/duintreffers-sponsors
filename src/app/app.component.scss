@@ -1,7 +1,4 @@
 :host {
-  overflow-x: hidden;
-  display: block;
-  width: 100%;
   --animation-duration: 60s;
 }
 
@@ -14,6 +11,7 @@
 }
 
 .track {
+  height: 100px;
   position: absolute;
   will-change: transform;
   animation: marquee var(--animation-duration) linear infinite;
@@ -32,6 +30,13 @@
 
     img {
       height: 100px;
+    }
+
+    /* Zoom in slightly with nice animation on hover: */
+    transition: transform 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 999;
     }
   }
 }
