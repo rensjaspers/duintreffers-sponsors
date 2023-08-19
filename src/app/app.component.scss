@@ -1,0 +1,25 @@
+:host {
+  overflow-x: hidden;
+  --animation-duration: 20s;
+}
+.sponsors {
+  display: flex;
+  gap: 1rem;
+
+  animation: marquee var(--animation-duration) linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+.sponsor img {
+  height: 100px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

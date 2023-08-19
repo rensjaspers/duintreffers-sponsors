@@ -1,3 +1,9 @@
+export interface Sponsor {
+  url?: string;
+  image: string;
+  title?: string;
+}
+
 export const SPONSORS = [
   {
     url: 'http://www.echtebakkermol.nl/',
@@ -158,5 +164,6 @@ export const SPONSORS = [
   {
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1538313345-200x200.jpg.webp',
+    title: 'Notariskantoor Wijnbeld',
   },
 ];

@@ -1,12 +1,7 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
-interface Sponsor {
-  url: string;
-  image: string;
-  title: string;
-}
+import { SPONSORS } from './sponsors';
 
 @Component({
   selector: 'app-root',
@@ -16,5 +11,5 @@ interface Sponsor {
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'duintreffers-sponsors';
+  readonly sponsors = SPONSORS;
 }
