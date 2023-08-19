@@ -11,7 +11,7 @@ import { SPONSORS } from './sponsors';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  readonly sponsors = SPONSORS;
+  readonly sponsors = SPONSORS.slice().sort(() => Math.random() - 0.5);
   animationDuration = '60s';
 
   constructor(private route: ActivatedRoute) {}
