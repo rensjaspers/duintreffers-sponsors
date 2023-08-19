@@ -1,4 +1,4 @@
-<div class="marquee">
+<div class="marquee" [ngStyle]="{ '--animation-duration': animationDuration }">
   <div class="track">
     <div class="sponsors">
       <div class="sponsor" *ngFor="let sponsor of sponsors">
