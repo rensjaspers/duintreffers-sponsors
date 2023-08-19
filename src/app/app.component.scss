@@ -7,11 +7,11 @@
   width: 100%;
   min-width: 100%;
   overflow-x: hidden;
-  height: 100px;
+  height: 100vh;
 }
 
 .track {
-  height: 100px;
+  height: 100vh;
   position: absolute;
   will-change: transform;
   animation: marquee var(--animation-duration) linear infinite;
@@ -29,14 +29,7 @@
     display: block;
 
     img {
-      height: 100px;
-    }
-
-    /* Zoom in slightly with nice animation on hover: */
-    transition: transform 0.2s ease-in-out;
-    &:hover {
-      transform: scale(1.1);
-      z-index: 999;
+      height: 100vh;
     }
   }
 }
