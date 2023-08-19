@@ -1,23 +1,44 @@
 :host {
   overflow-x: hidden;
-  --animation-duration: 20s;
+  display: block;
+  width: 100%;
+  --animation-duration: 60s;
 }
-.sponsors {
-  display: flex;
-  gap: 1rem;
 
+.marquee {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+  height: 100px;
+}
+
+.track {
+  position: absolute;
+  will-change: transform;
   animation: marquee var(--animation-duration) linear infinite;
   &:hover {
     animation-play-state: paused;
   }
 }
-.sponsor img {
-  height: 100px;
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  a {
+    display: block;
+
+    img {
+      height: 100px;
+    }
+  }
 }
 
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-100%);

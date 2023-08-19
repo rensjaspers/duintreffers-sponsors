@@ -1,11 +1,18 @@
-<div class="sponsors">
-  <div class="sponsor" *ngFor="let sponsor of sponsors">
-    <a [href]="sponsor.url || 'https://www.duintreffers.nl'" target="_blank">
-      <img
-        [src]="sponsor.image"
-        [alt]="sponsor.title"
-        [title]="sponsor.title"
-      />
-    </a>
+<div class="marquee">
+  <div class="track">
+    <div class="sponsors">
+      <div class="sponsor" *ngFor="let sponsor of sponsors">
+        <a
+          [href]="sponsor.url || 'https://www.duintreffers.nl'"
+          target="_blank"
+        >
+          <img
+            [src]="sponsor.image"
+            [alt]="sponsor.title"
+            [title]="sponsor.title"
+          />
+        </a>
+      </div>
+    </div>
   </div>
 </div>
