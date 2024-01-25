@@ -6,12 +6,6 @@ export interface Sponsor {
 
 export const SPONSORS = [
   {
-    url: 'http://www.echtebakkermol.nl/',
-    image:
-      'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1582722585-200x200.png.webp',
-    title: 'http://www.echtebakkermol.nl/',
-  },
-  {
     url: 'https://www.mastelingtweewielers.nl/',
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1457349612-200x200.jpg.webp',
@@ -34,12 +28,6 @@ export const SPONSORS = [
     image:
       'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1459864587-200x200.png.webp',
     title: 'https://www.ekoplaza.nl',
-  },
-  {
-    url: 'https://www.devishandel.nl/schoorl/vishandel-de-vishoek',
-    image:
-      'https://www.duintreffers.nl/wp-content/uploads/2023/08/photo-1517329996-200x200.jpg.webp',
-    title: 'https://www.devishandel.nl/schoorl/vishandel-de-vishoek',
   },
   {
     url: 'https://www.cafemereboer.nl/',
